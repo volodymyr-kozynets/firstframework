@@ -3,5 +3,3 @@
 return array(
     'lng.test' => '',
 );
-
-?>

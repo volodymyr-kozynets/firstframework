@@ -7,10 +7,8 @@ require_once(ROOT.DS.'lib'.DS.'init.php');
 
 $router = new Router($_SERVER['REQUEST_URI']);
 
-App::run($_SERVER['REQUEST_URI']);
+session_start();
 
-$test = App::$db->query('SELECT * FROM pages');
-echo "<pre>";
-print_r($test);
+App::run($_SERVER['REQUEST_URI']);
 
 ?>

@@ -37,4 +37,3 @@ class DB{
         return mysqli_escape_string($this->connection, $str);
     }
 }
-?>

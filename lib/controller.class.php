@@ -24,4 +24,3 @@ class Controller{
         $this->params = App::getRouter()->getParams();
     }
 }
-?>

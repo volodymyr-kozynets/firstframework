@@ -36,4 +36,3 @@ class View{
         return $content;
     }
 }
-?>
